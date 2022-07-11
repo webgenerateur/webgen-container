@@ -15,33 +15,29 @@ class CategoriesTableSeeder extends Seeder
     public function run()
     {
         Category::create([
-            'name' => 'High Tech',
-            'slug' => 'high-tech'
+            'name' => 'Categorie 1',
+            'slug' => 'categorie-1',
         ]);
 
         Category::create([
-            'name' => 'Livres',
-            'slug' => 'livres'
+            'name' => 'Categorie 2',
+            'slug' => 'categorie-2',
         ]);
 
         Category::create([
-            'name' => 'Fruits',
-            'slug' => 'fruits'
+            'name' => 'Categorie 3',
+            'slug' => 'categorie-3',
         ]);
 
         Category::create([
-            'name' => 'Jeux',
-            'slug' => 'jeux'
+            'name' => 'Categorie 4',
+            'slug' => 'categorie-4',
         ]);
 
         Category::create([
-            'name' => 'Sport',
-            'slug' => 'sport'
+            'name' => 'Categorie 5',
+            'slug' => 'categorie-5',
         ]);
 
-        Category::create([
-            'name' => 'Plantes',
-            'slug' => 'plantes'
-        ]);
     }
 }
